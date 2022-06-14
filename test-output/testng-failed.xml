@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Test_classes.TestClass1">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="verifyUserCanLogin"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Test_classes.TestClass1 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Test_classes.TestClass1">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyUserCanSearchProduct"/>
+          <include name="afterClass"/>
+          <include name="verifyUserCanLogin"/>
+          <include name="beforeMethod"/>
+          <include name="verfyUserCanGoToPDP"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Test_classes.TestClass1 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

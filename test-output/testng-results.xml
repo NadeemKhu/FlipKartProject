@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-09T11:28:19 IST" name="Suite" finished-at="2022-06-09T11:29:30 IST" duration-ms="70876">
+    <groups>
+    </groups>
+    <test started-at="2022-06-09T11:28:19 IST" name="ChromeTest" finished-at="2022-06-09T11:28:52 IST" duration-ms="33228">
+      <class name="Test_classes.TestClass1">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:Test_classes.TestClass1@291ae]" started-at="2022-06-09T11:28:19 IST" name="beforeClass" finished-at="2022-06-09T11:28:36 IST" duration-ms="17030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test_classes.TestClass1@291ae]" started-at="2022-06-09T11:28:36 IST" name="beforeMethod" finished-at="2022-06-09T11:28:36 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verfyUserCanGoToPDP()[pri:0, instance:Test_classes.TestClass1@291ae]" started-at="2022-06-09T11:28:36 IST" name="verfyUserCanGoToPDP" finished-at="2022-06-09T11:28:36 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfyUserCanGoToPDP -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Test_classes.TestClass1@291ae]" started-at="2022-06-09T11:28:36 IST" name="afterMethod" finished-at="2022-06-09T11:28:47 IST" duration-ms="10670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test_classes.TestClass1@291ae]" started-at="2022-06-09T11:28:47 IST" name="beforeMethod" finished-at="2022-06-09T11:28:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUserCanLogin()[pri:0, instance:Test_classes.TestClass1@291ae]" started-at="2022-06-09T11:28:47 IST" name="verifyUserCanLogin" finished-at="2022-06-09T11:28:49 IST" duration-ms="2787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Test_classes.TestClass1@291ae]" started-at="2022-06-09T11:28:49 IST" name="afterMethod" finished-at="2022-06-09T11:28:50 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test_classes.TestClass1@291ae]" started-at="2022-06-09T11:28:50 IST" name="beforeMethod" finished-at="2022-06-09T11:28:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUserCanSearchProduct(java.lang.String)[pri:0, instance:Test_classes.TestClass1@291ae]" started-at="2022-06-09T11:28:50 IST" name="verifyUserCanSearchProduct" data-provider="productData" finished-at="2022-06-09T11:28:50 IST" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[realmi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanSearchProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Test_classes.TestClass1@291ae]" started-at="2022-06-09T11:28:50 IST" name="afterMethod" finished-at="2022-06-09T11:28:50 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Test_classes.TestClass1@291ae]" started-at="2022-06-09T11:28:50 IST" name="afterClass" finished-at="2022-06-09T11:28:52 IST" duration-ms="2063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Test_classes.TestClass1 -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-06-09T11:28:52 IST" name="FirefoxTest" finished-at="2022-06-09T11:29:30 IST" duration-ms="37632">
+      <class name="Test_classes.TestClass1">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:Test_classes.TestClass1@1fa268de]" started-at="2022-06-09T11:28:52 IST" name="beforeClass" finished-at="2022-06-09T11:29:12 IST" duration-ms="19876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verfyUserCanGoToPDP()[pri:0, instance:Test_classes.TestClass1@1fa268de]" started-at="2022-06-09T11:29:12 IST" name="verfyUserCanGoToPDP" finished-at="2022-06-09T11:29:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfyUserCanGoToPDP -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test_classes.TestClass1@1fa268de]" started-at="2022-06-09T11:29:12 IST" name="beforeMethod" finished-at="2022-06-09T11:29:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Test_classes.TestClass1@1fa268de]" started-at="2022-06-09T11:29:12 IST" name="afterMethod" finished-at="2022-06-09T11:29:22 IST" duration-ms="10285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test_classes.TestClass1@1fa268de]" started-at="2022-06-09T11:29:22 IST" name="beforeMethod" finished-at="2022-06-09T11:29:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUserCanLogin()[pri:0, instance:Test_classes.TestClass1@1fa268de]" started-at="2022-06-09T11:29:22 IST" name="verifyUserCanLogin" finished-at="2022-06-09T11:29:24 IST" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Test_classes.TestClass1@1fa268de]" started-at="2022-06-09T11:29:24 IST" name="afterMethod" finished-at="2022-06-09T11:29:24 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test_classes.TestClass1@1fa268de]" started-at="2022-06-09T11:29:24 IST" name="beforeMethod" finished-at="2022-06-09T11:29:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUserCanSearchProduct(java.lang.String)[pri:0, instance:Test_classes.TestClass1@1fa268de]" started-at="2022-06-09T11:29:24 IST" name="verifyUserCanSearchProduct" data-provider="productData" finished-at="2022-06-09T11:29:28 IST" duration-ms="4576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[realmi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanSearchProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Test_classes.TestClass1@1fa268de]" started-at="2022-06-09T11:29:28 IST" name="afterMethod" finished-at="2022-06-09T11:29:28 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Test_classes.TestClass1@1fa268de]" started-at="2022-06-09T11:29:28 IST" name="afterClass" finished-at="2022-06-09T11:29:30 IST" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Test_classes.TestClass1 -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
